@@ -11,22 +11,33 @@ div {
 /*Adding a font family to the page*/
 h1 {
 	font-family: Lato;
+	text-align: center;
 }
 /*This is the outer most div of the content*/
 #main-content {
-	width: 960px;
+	width: 980px;
 	height: 600px;
+	margin: auto;
 }
 
+/*This is the style for the images.*/
+.image-holder {
+	width: 805px;
+	height: 505px;
+	position:relative;
+	margin: auto;
+}
 
 /*These are the styles for both buttons--this is the div to hold them.*/
 .button-holder {
-	width: 180px;
-	float: left;
-}
+	width: 160px;
+	clear: left;
+	position:relative;
+	margin: auto;
+	}
 /*These are the styles for both individual buttons.*/
 .button {
-	width: 60px;
+	width: 50px;
 	padding: 8px;
 	margin: 4px;
 	border-width: 1px;
@@ -45,11 +56,3 @@ h1 {
 	color: gray;
 }
 
-/*This is the style for the images.*/
-.image-holder {
-	width: 600px;
-	height: 345px;
-	float : left;
-	margin: 2px;
-
-}
