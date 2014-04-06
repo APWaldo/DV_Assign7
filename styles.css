@@ -44,3 +44,12 @@ h1 {
 	border-color: gray;
 	color: gray;
 }
+
+/*This is the style for the images.*/
+.image-holder {
+	width: 600px;
+	height: 345px;
+	float : left;
+	margin: 2px;
+
+}
