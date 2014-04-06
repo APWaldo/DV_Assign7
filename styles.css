@@ -4,10 +4,11 @@
 }
 
 /*This puts an outline around the divs*/
+/*
 div {
 	outline: 1px solid #CCCCCC;
 }
-
+*/
 /*Adding a font family to the page*/
 h1 {
 	font-family: Lato;
@@ -16,7 +17,7 @@ h1 {
 /*This is the outer most div of the content*/
 #main-content {
 	width: 980px;
-	height: 600px;
+	height: 580px;
 	margin: auto;
 }
 
@@ -27,6 +28,25 @@ h1 {
 	position:relative;
 	margin: auto;
 }
+
+.description {
+	width: 805px;
+	height: 30px;
+	position:relative;
+	margin: auto;
+	font-family: Lato;
+	font-size: 14px;
+	text-align: center;
+}
+.source {
+	font-family: Lato;
+	font-size: 10px;
+	float: right;
+	position: relative;
+	margin-top: 30px;
+
+}
+
 
 /*These are the styles for both buttons--this is the div to hold them.*/
 .button-holder {
