@@ -22,3 +22,22 @@ var images = [
  * This is console logging our array to make sure that the images appear.
  */
 console.log(images);
+
+/*
+ * Index of the current image in the array.
+ */
+var index = 0;
+
+
+/*
+ * Load the first image into our image holder
+ */
+$(document).ready(function() {
+	$(".image-holder").html(
+		"<img src='images/"+images[index]+"'/>"
+	);
+	
+	$(".button.prev").addClass("disabled");
+	setNav();
+});
+
