@@ -8,6 +8,19 @@ div {
 	outline: 1px solid #CCCCCC;
 }
 
-body {
+/*Adding a font family to the page*/
+h1 {
+	font-family: Lato;
+}
+/*This is the outer most div of the content*/
+#main-content {
+	width: 960px;
+	height: 600px;
+}
 
+
+/*These are the styles for both buttons--this is the div to hold them.*/
+.button-holder {
+	width: 180px;
+	float: left;
 }
