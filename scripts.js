@@ -17,3 +17,8 @@ var images = [
 "9_Watchtower-1.jpg",
 "10_Watchtower-2.jpg"
 ];
+
+/*
+ * This is console logging our array to make sure that the images appear.
+ */
+console.log(images);
