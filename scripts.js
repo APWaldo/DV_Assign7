@@ -29,6 +29,15 @@ console.log(images);
 var index = 0;
 
 
+/*Change the image here. It will provide us with the name of the next image.*/
+function updateImage(){
+		$(".image-holder").html(
+		"<img src='images/"+images[index]+"'/>"
+	);
+	console.log(image[index]);
+}
+
+
 /*
  * Load the first image into our image holder
  */
