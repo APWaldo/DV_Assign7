@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'Muli', sans-serif;
+	font-family: 'Lato', sans-serif;
+}
+
+/*This puts an outline around the divs*/
+div {
+	outline: 1px solid #CCCCCC;
+}
+
 body {
 
 }
