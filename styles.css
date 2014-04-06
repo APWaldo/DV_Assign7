@@ -24,3 +24,23 @@ h1 {
 	width: 180px;
 	float: left;
 }
+/*These are the styles for both individual buttons.*/
+.button {
+	width: 60px;
+	padding: 8px;
+	margin: 4px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	float: left;
+	text-align: center;
+	font-family: Lato;
+	cursor: pointer;
+}
+
+
+.disabled {
+	cursor: default;
+	border-color: gray;
+	color: gray;
+}
